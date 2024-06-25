@@ -1,0 +1,56 @@
+.navbar {
+  height: 80px;
+
+  .wrapper {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+
+    .center {
+      display: flex;
+      align-items: center;
+      font-size: 30px;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+    }
+
+    .left,
+    .right {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 25px;
+    }
+
+    .right {
+      gap: 10px;
+    }
+    .icons {
+      gap: 10px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .carticon {
+      position: relative;
+      span {
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #2879fe;
+        color: white;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
